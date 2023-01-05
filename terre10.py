@@ -24,9 +24,17 @@ if (nombre != float(argument)) :
 	print("erreur.")
 	exit()
 
-res=nombre**0.5
+i = 0
+while (i+1)**2 <= nombre :
+        i += 1
+while (i+0.1)**2 <= nombre :
+        i += 0.1
+while (i+0.01)**2 <= nombre :
+        i += 0.01
 
-if int(res) == res :
-	res = int(res)
+if round(i)**2 == nombre :
+        i = int(i)
+else :
+        i = round(i, 2)
 
-print(res)
+print(i)
