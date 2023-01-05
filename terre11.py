@@ -1,4 +1,6 @@
 # /usr/bin/env python3
+#Nombre premier
+"""Créez un programme qui affiche si un nombre est premier ou pas."""
 
 import sys
 

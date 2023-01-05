@@ -1,4 +1,6 @@
 # usr/bin/env python3
+# Trouver la Suisse
+"""Créez un programme qui prend en paramètre trois entiers et affiche la valeur du milieu"""
 
 import sys
 

@@ -1,4 +1,6 @@
 # /usr/bin/env python3
+# Inverser une chaîne
+"""Créez un programme qui affiche l'inverse de la chaîne de caractères donnée en argument."""
 
 import sys
 

@@ -1,4 +1,7 @@
 # /usr/bin/env python3
+#12 to 24
+"""Créez un programme qui transforme une heure affichée en format 12h
+en une heure affichée au format 24h"""
 
 import sys
 
